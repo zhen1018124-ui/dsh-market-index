@@ -1,0 +1,179 @@
+{
+  "format": 1,
+  "metadata": {
+    "categories": {
+      "experimental": { "title": { "en": "Experimental", "zh-CN": "实验性" } },
+      "productivity": { "title": { "en": "Productivity", "zh-CN": "效率工具" } },
+      "agent": { "title": { "en": "Agent", "zh-CN": "Agent 扩展" } }
+    },
+    "labels": {
+      "official": { "title": { "en": "Official", "zh-CN": "官方" } },
+      "experimental": { "title": { "en": "Experimental", "zh-CN": "实验性" } }
+    },
+    "sortKeys": {
+      "published": { "title": { "en": "Published", "zh-CN": "发布时间" }, "order": "desc" }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "title": { "en": "Voice Input", "zh-CN": "语音输入" },
+      "description": { "en": "Experimental voice input with local SenseVoice; downloads its runtime on first use.", "zh-CN": "使用本地 SenseVoice 模型的实验性语音输入，首次使用时会下载运行时。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-auto-review",
+      "title": { "en": "Auto Review", "zh-CN": "自动审查" },
+      "description": { "en": "Per-tool LLM authorization review for the DeepSeek Harness Auto permission preset.", "zh-CN": "在 Auto 权限预设下，每个工具调用都由 LLM 审查授权，更安全地自动化运行。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "experimental", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": { "en": "Persistent Terminal", "zh-CN": "持久终端" },
+      "description": { "en": "Keep shell processes alive across tool calls.", "zh-CN": "让 shell 进程在多次工具调用之间保持存活，适合长时间运行的命令。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": { "en": "Session Search", "zh-CN": "会话搜索" },
+      "description": { "en": "Give agents tools to search and read earlier sessions from the current workspace.", "zh-CN": "为 Agent 提供搜索和读取当前工作区历史会话的工具。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "agent", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "title": { "en": "Auto Session Titles", "zh-CN": "自动会话标题" },
+      "description": { "en": "Refresh session titles as new human prompts arrive.", "zh-CN": "每当用户发送新消息时自动刷新会话标题。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
+      "title": { "en": "CoT Translation", "zh-CN": "思维链翻译" },
+      "description": { "en": "Experimental machine translation of expanded reasoning.", "zh-CN": "实验性的思维链展开内容机器翻译。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-badge-skill-bundle",
+      "title": { "en": "Powered by dsh Badge", "zh-CN": "dsh 徽章技能" },
+      "description": { "en": "Let agents add a powered-by-dsh badge to documents, pull requests, and other outputs.", "zh-CN": "让 Agent 在文档、PR 等输出中添加「powered by dsh」徽章。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-personalized-recommendations",
+      "title": { "en": "Personalized Recommendations", "zh-CN": "个性化推荐" },
+      "description": { "en": "Personalized pages and built-in plugin recommendations offered as cards below answers.", "zh-CN": "在回答下方以卡片形式提供个性化页面和内置插件推荐。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-tool-worktree",
+      "title": { "en": "Git Worktree Tool", "zh-CN": "Git Worktree 工具" },
+      "description": { "en": "Model tool that creates and enters a new Git worktree.", "zh-CN": "为 Agent 提供创建和进入新 Git worktree 的工具，适合并行开发场景。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "agent", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-inspector-profile",
+      "title": { "en": "Session Inspector", "zh-CN": "会话检查器" },
+      "description": { "en": "Optional Web bundle for raw Session logs and Chat node inspection.", "zh-CN": "可选 Web 组件，用于查看原始 Session 日志和 Chat 节点检查。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "experimental", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    }
+  ]
+}
