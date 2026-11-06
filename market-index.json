@@ -175,6 +175,70 @@
           "source": { "type": "npm" }
         }
       ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "title": { "en": "Agent Teams", "zh-cn": "Agent 团队协作" },
+      "description": { "en": "Agent Teams collaboration, tools, and Web UI in one experimental bundle.", "zh-cn": "Agent 团队协作、专用工具和 Web 界面，打包为一个实验性组合包。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "agent", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": { "en": "Ralph Loop", "zh-cn": "Ralph 循环" },
+      "description": { "en": "Run explicitly requested repeated work with fresh agents.", "zh-cn": "以全新 Agent 运行用户明确请求的重复性任务。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "agent", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-liveshare",
+      "title": { "en": "LiveShare", "zh-cn": "LiveShare 会话共享" },
+      "description": { "en": "Opt-in host bundle: share a Session through a separate Relay at the view or bounded-write tier.", "zh-cn": "通过独立 Relay 共享 Session，支持只读查看或受限写入两种权限级别。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-forge-bundle",
+      "title": { "en": "Forge", "zh-cn": "Forge 变更面板" },
+      "description": { "en": "Experimental change request panel and worktree option for Sessions in Git repositories.", "zh-cn": "实验性变更请求面板，为 Git 仓库中的 Session 提供工作树选项。" },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/dsh",
+      "repository": { "url": "https://github.com/deepseek-ai/dsh" },
+      "metadata": { "category": "productivity", "labels": ["official", "experimental"] },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1762464000,
+          "source": { "type": "npm" }
+        }
+      ]
     }
   ]
 }
